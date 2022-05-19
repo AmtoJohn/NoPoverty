@@ -1,0 +1,28 @@
+body {
+    background-image: url("img/bg0.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+h1 {
+    color: white
+}
+
+.nav {
+    margin: 0%;
+    border: 0ch;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 28px;
+    user-select: none;
+    width: 200px;
+    cursor: pointer;
+    font-family: montserrat;
+}
+
+.top { 
+    left: 50%;
+    position: absolute;
+    -ms-transform: translate(-50%);
+    transform: translate(-50%);
+}
