@@ -4,24 +4,31 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
+
 h1 {
     color: white
 }
 
 .nav {
-    margin: 0%;
     border: 0ch;
     color: white;
     background-color: rgba(0, 0, 0, 0);
     font-size: 28px;
     user-select: none;
-    width: 200px;
     cursor: pointer;
     font-family: montserrat;
+    transition-duration: 0.4s;
 }
+
+.nav:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    transition-duration: 0.2s;
+}
+
 
 .top { 
     left: 50%;
+    top: 2%;
     position: absolute;
     -ms-transform: translate(-50%);
     transform: translate(-50%);
