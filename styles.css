@@ -1,5 +1,18 @@
+.col-1 {width: 8,33%;}
+.col-2 {width: 16,66%;}
+.col-3 {width: 24,99%;}
+.col-4 {width: 33,32%;}
+.col-5 {width: 41,65%;}
+.col-6 {width: 49,98%;}
+.col-7 {width: 58,31%;}
+.col-8 {width: 66,64%;}
+.col-9 {width: 74,97%;}
+.col-10 {width: 83,3%;}
+.col-11 {width: 91,66%;}
+.col-12 {width: 100%;}
+
 body {
-    background-image: url("img/bg0.jpg");
+    background-image: url("img/nopoverty2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -8,10 +21,13 @@ body {
 h1 {
     color: white
 }
-
+img{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
 .nav {
     border: 0ch;
-    color: white;
+    color: skyblue;
     background-color: rgba(0, 0, 0, 0);
     font-size: 28px;
     user-select: none;
@@ -21,15 +37,19 @@ h1 {
 }
 
 .nav:hover {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 128, 128, 0.5);
     transition-duration: 0.2s;
 }
 
+div{border: 1px solid red;}
 
-.top { 
-    left: 50%;
-    top: 2%;
-    position: absolute;
-    -ms-transform: translate(-50%);
-    transform: translate(-50%);
+.top {
+    text-align: center;
+    grid-column-start: 2;
+    grid-column-end: 13; 
+}
+.container{
+    display: grid;
+    gap: 1rem   ;
+    grid-template-columns: repeat(12, 1fr);
 }
