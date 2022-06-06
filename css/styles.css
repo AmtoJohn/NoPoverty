@@ -25,6 +25,10 @@ body {
     user-select: none;
 }
 
+.title :hover {
+  text-shadow: 2px 2px 5px #d50000;
+}
+
 .punto1 {
   grid-column-start: 4;
   grid-column-end: 12;
@@ -51,6 +55,7 @@ img {
 .nav:hover {
     background-color: rgba(0, 100, 100, 0.5);
     transition-duration: 0.2s;
+    box-shadow: 10px 10px 5px #9b0000;
 }
 
 
