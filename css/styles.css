@@ -129,28 +129,6 @@ div{border: 1px solid red;}
 }
 /*PROVA RESPONSIVE NAVBAR*/
 
-  /* Hide the link that should open and close the topnav on small screens */
-
-@media screen and (max-width: 962px) {
-  .top.responsive {position: relative;}
-  .top.responsive a.icon {
-    color: white;
-    position: absolute;
-    right: 0;
-    top: 0;
-    
-  }
-  .top.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-    font-size: 16px;
-  }
-  .icon {
-    color: #ff5131;
-  }
-}
-
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
 @media screen and (max-width: 600px) {
     .top a:not(:first-child) {display: none;}
@@ -179,4 +157,22 @@ div{border: 1px solid red;}
     grid-column-end: 13;
   }
 
+  .top.responsive {position: relative;}
+  .top.responsive a.icon {
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+  }
+  .top.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+    font-size: 16px;
+  }
+  .icon {
+    color: #ff5131;
+  }
+  
 }
