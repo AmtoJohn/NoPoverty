@@ -29,10 +29,56 @@ body {
   text-shadow: 2px 2px 5px #d50000;
 }
 
+article {
+  margin: 20px;
+}
+
+/*PUNTO 1 */
 .punto1 {
   grid-column-start: 4;
-  grid-column-end: 12;
+  grid-column-end: 11;
   color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.punto1 h2 {
+  text-align: center;
+}
+
+/* PUNTO 2 */
+.punto2 {
+  grid-column-start: 4;
+  grid-column-end: 11;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.punto2 h2 {
+  text-align: center;
+}
+
+/* TARGETS */
+.targets {
+  grid-column-start: 4;
+  grid-column-end: 11;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  font-size: 20px;
+  text-align: center;
+}
+
+.targets h2 {
+  margin: 50px;
+}
+
+.targets h2:hover {
+  box-shadow: 5px 10px 8px 10px #888888
 }
 
 img {
@@ -50,6 +96,7 @@ img {
     text-decoration: none;
     font-family: montserrat;
     transition-duration: 0.4s;
+    box-shadow: 0px 2px 0px #9b0000;
 }
 
 .nav:hover {
@@ -98,7 +145,6 @@ div{border: 1px solid red;}
   .punto1 {
     grid-column-start: 1;
     grid-column-end: 13;
-
   }
 }
   
